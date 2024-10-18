@@ -4,11 +4,11 @@ class Response:
     REQUIRED_FIELDS_MISSING = 'Email, password and name are required fields'
     INVALID_EMAIL_OR_PASSWORD = 'email or password are incorrect'
     AUTHORIZATION_REQUIRED = 'You should be authorised'
-    ORDER_CREATION_REQUIRES_INGREDIENTS = 'Ingredient ids must be provided'
-
+    REQUIRES_ERROR_INGREDIENTS = 'Ingredient ids must be provided'
 
 
 class Urls:
+
     URL = 'https://stellarburgers.nomoreparties.site'
     INGREDIENTS = '/api/ingredients'
     ORDER = '/api/orders'
