@@ -9,7 +9,7 @@ import data
 def remove_user():
     def _remove_user(token):
         Api.remove_user(token)
-    yield _remove_user
+    return _remove_user
 
 
 @pytest.fixture
